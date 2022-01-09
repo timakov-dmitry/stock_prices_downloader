@@ -1,0 +1,19 @@
+{
+  "name": "tinkoff_candles",
+  "version": "1.0.0",
+  "description": "Tools for download stocks from tinkoff invest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Timakov",
+  "license": "ISC",
+  "dependencies": {
+    "@tinkoff/invest-openapi-js-sdk": "^1.5.0",
+    "dotenv": "^10.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "simple-node-logger": "^21.8.12"
+  },
+  "type": "module"
+}
